@@ -1,0 +1,46 @@
+==> 2019-04-28 15:09:54 <==
+# cmd: C:\Users\lapra\Anaconda3\Scripts\conda-script.py create -n VILLAGE python=3.6
+# conda version: 4.6.14
++defaults::certifi-2019.3.9-py36_0
++defaults::pip-19.1-py36_0
++defaults::python-3.6.8-h9f7ef89_7
++defaults::setuptools-41.0.0-py36_0
++defaults::sqlite-3.28.0-he774522_0
++defaults::vc-14.1-h0510ff6_4
++defaults::vs2015_runtime-14.15.26706-h3a45250_0
++defaults::wheel-0.33.1-py36_0
++defaults::wincertstore-0.2-py36h7fe50ca_0
+# update specs: ['python=3.6']
+==> 2019-04-28 15:11:19 <==
+# cmd: C:\Users\lapra\Anaconda3\Scripts\conda-script.py install numpy
+# conda version: 4.6.14
++defaults::blas-1.0-mkl
++defaults::icc_rt-2019.0.0-h0cc432a_1
++defaults::intel-openmp-2019.3-203
++defaults::mkl-2019.3-203
++defaults::mkl_fft-1.0.10-py36h14836fe_0
++defaults::mkl_random-1.0.2-py36h343c172_0
++defaults::numpy-1.16.3-py36h19fb1c0_0
++defaults::numpy-base-1.16.3-py36hc3f5095_0
+# update specs: ['numpy']
+==> 2019-04-28 15:12:14 <==
+# cmd: C:\Users\lapra\Anaconda3\Scripts\conda-script.py install pandas
+# conda version: 4.6.14
++defaults::pandas-0.24.2-py36ha925a31_0
++defaults::python-dateutil-2.8.0-py36_0
++defaults::pytz-2019.1-py_0
++defaults::six-1.12.0-py36_0
+# update specs: ['pandas']
+==> 2019-04-28 15:18:09 <==
+# cmd: C:\Users\lapra\Anaconda3\Scripts\conda-script.py install -c conda-forge pulp
+# conda version: 4.6.14
+-defaults::certifi-2019.3.9-py36_0
++conda-forge::certifi-2019.3.9-py36_0
++conda-forge::pulp-1.6.8-py36_1000
++conda-forge::pyparsing-2.4.0-py_0
+# update specs: ['pulp']
+==> 2019-04-28 15:19:37 <==
+# cmd: C:\Users\lapra\Anaconda3\Scripts\conda-script.py install -c conda-forge glpk
+# conda version: 4.6.14
++conda-forge::glpk-4.65-h2fa13f4_1001
+# update specs: ['glpk']

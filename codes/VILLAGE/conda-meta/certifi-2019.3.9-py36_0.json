@@ -1,0 +1,98 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\lapra\\Anaconda3\\pkgs\\certifi-2019.3.9-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/certifi-2019.03.09-py3.6.egg-info",
+    "Lib/site-packages/certifi/__init__.py",
+    "Lib/site-packages/certifi/__main__.py",
+    "Lib/site-packages/certifi/__pycache__/__init__.cpython-36.pyc",
+    "Lib/site-packages/certifi/__pycache__/__main__.cpython-36.pyc",
+    "Lib/site-packages/certifi/__pycache__/core.cpython-36.pyc",
+    "Lib/site-packages/certifi/cacert.pem",
+    "Lib/site-packages/certifi/core.py"
+  ],
+  "fn": "certifi-2019.3.9-py36_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "C:\\Users\\lapra\\Anaconda3\\pkgs\\certifi-2019.3.9-py36_0",
+    "type": 1
+  },
+  "md5": "d78307cb9c50a02f3446e7fb5e4c6cd8",
+  "name": "certifi",
+  "package_tarball_full_path": "C:\\Users\\lapra\\Anaconda3\\pkgs\\certifi-2019.3.9-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/certifi-2019.03.09-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "547b6c8616de9d2084c9dab70660b6bbcb4cd9cde419fcff73c6bf991e8f1062",
+        "sha256_in_prefix": "547b6c8616de9d2084c9dab70660b6bbcb4cd9cde419fcff73c6bf991e8f1062",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8cd66a1ea7d0fa8d99ce013d2a9ccd5da6810730f6a07bb3acbf9c4b44bc858",
+        "sha256_in_prefix": "f8cd66a1ea7d0fa8d99ce013d2a9ccd5da6810730f6a07bb3acbf9c4b44bc858",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "sha256_in_prefix": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c237901578e9efe27154af5a0128a6898d7915e162029e694533bc5290f2344a",
+        "sha256_in_prefix": "c237901578e9efe27154af5a0128a6898d7915e162029e694533bc5290f2344a",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d60d659c8610a20164e1c582da903e503fde74bcbf4c02f86b044726c52e461",
+        "sha256_in_prefix": "0d60d659c8610a20164e1c582da903e503fde74bcbf4c02f86b044726c52e461",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/core.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9414620b218e6290c605a6b4ea4239ada80d3f7a1b93c61479059ab6575bc3b8",
+        "sha256_in_prefix": "9414620b218e6290c605a6b4ea4239ada80d3f7a1b93c61479059ab6575bc3b8",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "Lib/site-packages/certifi/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "397b833e5acf89a2709b964401a9aca68d24b62349b72bbe38684e586aa07a27",
+        "sha256_in_prefix": "397b833e5acf89a2709b964401a9aca68d24b62349b72bbe38684e586aa07a27",
+        "size_in_bytes": 284518
+      },
+      {
+        "_path": "Lib/site-packages/certifi/core.py",
+        "path_type": "hardlink",
+        "sha256": "12e15cd81b13a06e4ed7eaacc780528d0d6bd7eed646d1fcedbd567e564e5a12",
+        "sha256_in_prefix": "12e15cd81b13a06e4ed7eaacc780528d0d6bd7eed646d1fcedbd567e564e5a12",
+        "size_in_bytes": 218
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 152468,
+  "subdir": "win-64",
+  "timestamp": 1552136391984,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/certifi-2019.3.9-py36_0.tar.bz2",
+  "version": "2019.3.9"
+}

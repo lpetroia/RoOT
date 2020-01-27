@@ -1,0 +1,74 @@
+{
+  "build": "h2fa13f4_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\lapra\\Anaconda3\\pkgs\\glpk-4.65-h2fa13f4_1001",
+  "features": "",
+  "files": [
+    "Library/bin/glpk.dll",
+    "Library/bin/glpk_4_65.dll",
+    "Library/bin/glpsol.exe",
+    "Library/include/glpk.h",
+    "Library/lib/glpk.lib"
+  ],
+  "fn": "glpk-4.65-h2fa13f4_1001.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "C:\\Users\\lapra\\Anaconda3\\pkgs\\glpk-4.65-h2fa13f4_1001",
+    "type": 1
+  },
+  "md5": "001dc9616971ba7d6cfac9d9b23a7d0b",
+  "name": "glpk",
+  "package_tarball_full_path": "C:\\Users\\lapra\\Anaconda3\\pkgs\\glpk-4.65-h2fa13f4_1001.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/glpk.dll",
+        "path_type": "hardlink",
+        "sha256": "737910b7f1f33ade01c43aacad7197ec54cb201dfced2cd535e8dc66322389d3",
+        "sha256_in_prefix": "737910b7f1f33ade01c43aacad7197ec54cb201dfced2cd535e8dc66322389d3",
+        "size_in_bytes": 1874944
+      },
+      {
+        "_path": "Library/bin/glpk_4_65.dll",
+        "path_type": "hardlink",
+        "sha256": "737910b7f1f33ade01c43aacad7197ec54cb201dfced2cd535e8dc66322389d3",
+        "sha256_in_prefix": "737910b7f1f33ade01c43aacad7197ec54cb201dfced2cd535e8dc66322389d3",
+        "size_in_bytes": 1874944
+      },
+      {
+        "_path": "Library/bin/glpsol.exe",
+        "path_type": "hardlink",
+        "sha256": "d783a88b2c2c960030814696e868398c27ca595f0ef7b0921f97040a63d09257",
+        "sha256_in_prefix": "d783a88b2c2c960030814696e868398c27ca595f0ef7b0921f97040a63d09257",
+        "size_in_bytes": 549376
+      },
+      {
+        "_path": "Library/include/glpk.h",
+        "path_type": "hardlink",
+        "sha256": "72978196b4a10f86acdceabc9cf6ffa045b422b08477ef0ea81506a4584fd145",
+        "sha256_in_prefix": "72978196b4a10f86acdceabc9cf6ffa045b422b08477ef0ea81506a4584fd145",
+        "size_in_bytes": 39954
+      },
+      {
+        "_path": "Library/lib/glpk.lib",
+        "path_type": "hardlink",
+        "sha256": "b3c8250a151cb7d7d2fd07c16b66963c830c4167e77516e22687ee7311a06098",
+        "sha256_in_prefix": "b3c8250a151cb7d7d2fd07c16b66963c830c4167e77516e22687ee7311a06098",
+        "size_in_bytes": 6078222
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "glpk",
+  "size": 3356731,
+  "subdir": "win-64",
+  "timestamp": 1537080650492,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/glpk-4.65-h2fa13f4_1001.tar.bz2",
+  "version": "4.65"
+}
