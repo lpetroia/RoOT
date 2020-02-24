@@ -1064,9 +1064,9 @@ def create_excel(solution):
         worksheet.write_string(row, col + 6, 'TOTAL DOSES DELIVERED:', gray)
         worksheet.write_string(row, col + 7, 'TOTAL COST PER DOSE:', gray)
  
-        worksheet.write_string(row, col + 8, 'COLD UTILIZATION OF VEHICLE (%):', gray)
+        worksheet.write_string(row, col + 8, 'REFRIGERATED UTILIZATION OF VEHICLE (%):', gray)
  
-        worksheet.write_string(row, col + 9, 'DRY UTILIZATION OF VEHICLE (%):', gray)
+        worksheet.write_string(row, col + 9, 'NON-REFRIGERATED UTILIZATION OF VEHICLE (%):', gray)
  
         temp_time = 8 * 60
         temp_hour = math.floor(temp_time / 60)
@@ -1181,10 +1181,10 @@ def create_excel(solution):
         for i in range(2, len(routes[key])):
             worksheet2.write_string(row, col, 'CENTER:', gray)
             worksheet2.write_string(row, col + 1, routes[key][i], bold)
-            worksheet2.write_string(row + 1, col, 'COLD UTILIZATION AT HEALTH CENTER (%):', gray)
+            worksheet2.write_string(row + 1, col, 'REFRIGERATED UTILIZATION AT HEALTH CENTER (%):', gray)
             worksheet2.write_number(row + 1, col + 1, round((d[routes[key][i], 'cold'] /
                                                              r[routes[key][i]]) * 100, 2), bold)
-            worksheet2.write_string(row + 2, col, 'DRY UTILIZATION AT HEALTH CENTER (%):', gray)
+            worksheet2.write_string(row + 2, col, 'NON-REFRIGERATED UTILIZATION AT HEALTH CENTER (%):', gray)
             worksheet2.write_number(row + 2, col + 1, round((d[routes[key][i], 'dry'] /
                                                              dry[routes[key][i]]) * 100, 2), bold)
             worksheet2.write_string(row + 3, col, 'PRODUCT:', gray)
