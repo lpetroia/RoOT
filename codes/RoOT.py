@@ -1118,8 +1118,10 @@ def create_excel(solution):
                 # distance
                 route_distance = route_distance + dist[routes[key][i], routes[key][i + 1]]
                 # quantity carried in volume
-                refri_util = refri_util + r[routes[key][i + 1]]
-                dry_util = dry_util + dry[routes[key][i + 1]]
+#                 refri_util = refri_util + r[routes[key][i + 1]]
+                refri_util = refri_util + d[routes[key][i + 1],'cold']
+#                 dry_util = dry_util + dry[routes[key][i + 1]]
+                dry_util = dry_util + d[routes[key][i + 1],'dry']
  
                 # total doses
                 doses_vehicle = doses_vehicle + demand_doses[routes[key][i + 1]]
@@ -1132,8 +1134,14 @@ def create_excel(solution):
         ##vehicle utilization
         worksheet.write_number(row + 1, col + 8, round(refri_util * 100 /
                                                        c_cold[routes[key][0]], 2), simple)
+#         worksheet.write_number(row + 2, col + 8, refri_util, simple)
+#         worksheet.write_number(row + 3, col + 8, c_cold[routes[key][0]], simple)
+        
         worksheet.write_number(row + 1, col + 9, round(dry_util * 100 /
                                                        c_dry[routes[key][0]], 2), simple)
+        
+#         worksheet.write_number(row + 2, col + 9, dry_util, simple)
+#         worksheet.write_number(row + 3, col + 9, c_dry[routes[key][0]], simple)
  
         # route cost
         route_cost = route_distance * cost_km[routes[key][0]]
